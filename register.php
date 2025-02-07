@@ -44,7 +44,7 @@ if(isset($_POST["register"])){
     <title>Document</title>
 </head>
 <body>
-    <?php include "layout/header.html" ?>
+    <?php include "header.html" ?>
     <h3>daftar akun</h3>
     <i><?= $register_message ?></i>
     <form action="register.php" method="POST">
@@ -55,7 +55,7 @@ if(isset($_POST["register"])){
 
 
     </form>
-     <?php include "layout/footer.html" ?>
+     <?php include "footer.html" ?>
     
 </body>
 </html>
