@@ -1,5 +1,5 @@
 <?php
-include "service/database.php";
+include "database.php";
 session_start();
 
 $register_message = "";
