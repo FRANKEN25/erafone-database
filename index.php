@@ -45,10 +45,10 @@ p {
     </style>
 </head>
 <body>
-    <?php include "layout/header.html" ?>
+    <?php include "header.html" ?>
     <main>
         <p>selamat datang di website kami</p>
     </main>
-    <?php include "layout/footer.html" ?>
+    <?php include "footer.html" ?>
 </body>
 </html>
